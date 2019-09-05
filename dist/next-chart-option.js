@@ -2,7 +2,7 @@
  * name: next-chart-option
  * url: https://github.com/afeiship/next-chart-option
  * version: 1.0.0
- * date: 2019-09-05T04:14:53.612Z
+ * date: 2019-09-05T04:17:51.288Z
  * license: MIT
  */
 
@@ -28,7 +28,7 @@
     var seriesInfoset = NxChartData2set.info(inData.infolist);
     var dataset = NxChartData2set.data(inData.datalist);
     var sids = chartOption.seriesList.reduce(function(filtered, item) {
-      item.show && filtered.push(item);
+      item.show && filtered.push(item.sid);
       return filtered;
     });
     var dataTable = assembleData(dataset, sids, dateRange, autoUpdate, 'date', seriesInfoset);
