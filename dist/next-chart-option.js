@@ -2,7 +2,7 @@
  * name: next-chart-option
  * url: https://github.com/afeiship/next-chart-option
  * version: 1.0.0
- * date: 2019-09-05T04:17:51.288Z
+ * date: 2019-09-05T04:20:27.463Z
  * license: MIT
  */
 
@@ -30,7 +30,7 @@
     var sids = chartOption.seriesList.reduce(function(filtered, item) {
       item.show && filtered.push(item.sid);
       return filtered;
-    });
+    }, []);
     var dataTable = assembleData(dataset, sids, dateRange, autoUpdate, 'date', seriesInfoset);
     var option = toEcharts(chartStyle, dataTable, seriesInfoset);
     return adaptInst(option);
