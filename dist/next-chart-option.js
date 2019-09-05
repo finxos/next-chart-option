@@ -2,7 +2,7 @@
  * name: next-chart-option
  * url: https://github.com/afeiship/next-chart-option
  * version: 1.0.0
- * date: 2019-09-05T04:20:27.463Z
+ * date: 2019-09-05T04:27:38.165Z
  * license: MIT
  */
 
