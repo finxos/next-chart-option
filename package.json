@@ -33,7 +33,7 @@
     "next-nice-comments": "github:afeiship/next-nice-comments"
   },
   "dependencies": {
-    "echarts-adapter": "git+ssh://git@gitlab.finxos.com:Cloud-Project/echarts-adapter.git",
+    "echarts-adapter": "github:finxos/echarts-adapter",
     "next-chart-data2set": "github:finxos/next-chart-data2set",
     "next-js-core2": "github:afeiship/next-js-core2"
   }
